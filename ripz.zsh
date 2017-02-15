@@ -3,7 +3,7 @@
 (( $+commands[rg] )) || exit
 
 function _ripz_find() {
-  echo $(alias | tail -r | rg --max-count 1 --no-line-number ".*='{0,1}$1'{0,1}")
+  echo $(alias | tail -r | rg --max-count 1 --no-line-number ".*='{0,1}${1//\\/}'{0,1}")
 }
 
 function _ripz_prexec() {
