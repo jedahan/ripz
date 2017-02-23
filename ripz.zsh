@@ -9,7 +9,7 @@ function _ripz_find() {
 function _ripz_prexec() {
   [[ -n $(alias $@) ]] && return
   expand=$(alias -m $1 | cut -d"'" -f2)
-  result=$(_ripz_find $expand ${@[2,-1]})
+  result=$(_ripz_find "$expand" ${@[2,-1]})
   [[ -n $result ]] && echo ${RIPZ_TEXT:-'Ripz:'} $result | cut -d'=' -f1
 }
 
