@@ -16,7 +16,7 @@ ripz depends on [ripgrep](github.com/BurntSushi/ripgrep)
 
 ### manual
 
-    git clone https://github.com/jedahan/tipz ripz && cd ripz
+    git clone https://github.com/jedahan/ripz ripz && cd ripz
     echo "source $(pwd)/ripz.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 
 ## related
