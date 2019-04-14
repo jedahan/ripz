@@ -1,3 +1,6 @@
+### :warning: unmaintained
+> let me (@jedahan) know if you want to take over, but the code is pretty hacky
+
 # ripz - alias tips powered by ripgrep
 
 ripz reminds you of your aliases, so you use them more
